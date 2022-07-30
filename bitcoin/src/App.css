@@ -1,0 +1,167 @@
+.d-flex-sidebar{
+  flex-basis: 20%;
+  transition: 0.5s;
+}
+
+.d-flex-sidebar-1{
+  flex-basis: 5%;
+  transition: 0.5s;
+}
+
+.d-flex-header{
+  flex-basis: 80%;
+  transition: 0.5s;
+}
+
+.d-flex-header-1{
+  flex-basis: 95%;
+  transition: 0.5s;
+}
+
+.icons{
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+}
+
+
+.img{
+  width: 15%;
+}
+
+.bg-coloe{
+  background-color: rgb(58, 76, 175);
+  padding: 6px 0px;
+}
+
+.bg-color-2{
+  background-image: linear-gradient(90deg,rgb(28, 65, 82),rgb(2, 2, 2));
+  background-repeat: no-repeat;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 576px;
+}
+
+.bg-color-2::-webkit-scrollbar{
+  width: 5px;
+}
+
+.bg-color-2 ul{
+  padding: 0px;
+}
+
+::-webkit-scrollbar{
+  width: 0px;
+}
+
+
+.bg-color-2 ul li {
+  color: white;
+  padding: 10px 5px;
+}
+
+.bg-color-2 ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+.icons-1{
+  background-color: rgba(99, 96, 93, 0.582);
+  font-size: 30px;
+  padding: 5px;
+  border-radius: 50px;
+  margin: 0px 10px;
+}
+
+.icons-3{
+  background-color: rgba(72, 112, 192, 0.582);
+  font-size: 30px;
+  padding: 5px;
+  border-radius: 50px;
+  margin: 0px 10px;
+  cursor: pointer;
+}
+
+.img-1{
+width: 34px;
+}
+
+.icons-4{
+  background-color: rgba(72, 112, 192, 0.582);
+  border-radius: 50px;
+  margin: 0px 10px;
+}
+
+.icons-2{
+  font-size: 30px;
+  margin: 0px 10px;
+}
+
+.header{
+  background-color: rgb(29, 48, 110);
+  color: white;
+  padding: 6px;
+}
+
+.img-0{
+  width: 100%;
+  transition: 1s;
+}
+
+.back-color{
+  background-color: black;
+  height: 575px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.white-color{
+  background-color: white;
+  height: 575px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.back-color::-webkit-scrollbar{
+  width: 5px;
+}
+
+.dropdown button{
+  background-color: rgba(255, 255, 255, 0);
+  padding: 0px;
+  border: none;
+}
+
+.dropdown button:hover,.dropdown button:focus{
+  background-color: rgba(255, 255, 255, 0);
+  padding: 0px;
+  border: none;
+}
+
+.dropdown button:focus:not(:focus-visible){
+  outline: none;
+  box-shadow: none;
+}
+
+.dropdown-toggle::after{
+  display: none !important;
+}
+
+
+.img-9{
+  width: 50px;
+}
+
+.canvas{
+  width: 100% !important;
+}
+
+.lol li{
+  list-style: none;
+  font-weight: 600;
+  color: rgb(110, 137, 226);
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
